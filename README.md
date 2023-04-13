@@ -1,3 +1,7 @@
+## preview
+
+![og](https://user-images.githubusercontent.com/105123650/231881645-7fc2b88b-da9c-4c02-b7b2-32d6471c194e.png)
+
 ## 🛠 Installation & Set Up
 
 1. Install the Gatsby CLI
