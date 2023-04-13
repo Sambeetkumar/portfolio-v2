@@ -1,13 +1,13 @@
 ---
 date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+title: 'Matriculation'
+institution: 'DNV'
+company: '10th'
+location: 'Jajpur, Odisha, India'
+range: 'March 2017 - February 2018'
+url: '#'
 ---
 
-- Developed and shipped highly interactive web applications for Apple Music using Ember.js
-- Built and shipped the Apple Music Extension within Facebook Messenger leveraging third-party and internal APIs
-- Architected and implemented the front-end of Apple Music's embeddable web player widget, which lets users log in and listen to full songs in the browser
-- Contributed extensively to MusicKit.js, a JavaScript framework that allows developers to add an Apple Music player to their web apps
+- Completed Matriculation from Damodar Nodal Vidyapitha, Achyutpur and secured 88% marks in the board exam.
+- As a curious child I had a great interest in space exploration and tech gadgets which motivated me to enter into the field of computer science.
+- My major subjects during matriculation were Physical Science, Life Science, Mathematics, Sanskrit, Geography, History, Odia and English. 

@@ -175,6 +175,7 @@ const Education = () => {
           node {
             frontmatter {
               title
+              institution
               company
               location
               range
@@ -244,7 +245,7 @@ const Education = () => {
 
   return (
     <StyledJobsSection id="education" ref={revealContainer}>
-      <h2 className="numbered-heading">Where I’ve Worked</h2>
+      <h2 className="numbered-heading">Where I’ve Studied</h2>
 
       <div className="inner">
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyDown(e)}>
@@ -273,7 +274,7 @@ const Education = () => {
           {jobsData &&
             jobsData.map(({ node }, i) => {
               const { frontmatter, html } = node;
-              const { title, url, company, range } = frontmatter;
+              const { title, url, company, institution, range } = frontmatter;
 
               return (
                 <CSSTransition key={i} in={activeTabId === i} timeout={250} classNames="fade">
@@ -289,7 +290,7 @@ const Education = () => {
                       <span className="company">
                         &nbsp;@&nbsp;
                         <a href={url} className="inline-link">
-                          {company}
+                          {institution}
                         </a>
                       </span>
                     </h3>
