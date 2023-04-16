@@ -1,6 +1,6 @@
 ## preview
 
-![og](https://user-images.githubusercontent.com/105123650/231881645-7fc2b88b-da9c-4c02-b7b2-32d6471c194e.png)
+![demo](https://github.com/Sambeetkumar/portfolio-v2/blob/master/src/images/demo.png)
 
 ## 🛠 Installation & Set Up
 
