@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Tailwind', 'Next.js', 'WordPress'];
+  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Tailwind', 'Next.js', 'Firebase'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,8 +136,7 @@ const About = () => {
           <div>
             <p>
               Hello! My name is Sambeet and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2022 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
+              interest in web development started back in 2022 when I decided to try editing Wordpress themes — turns out hacking together a custom reblog button taught me a lot
               about HTML &amp; CSS!
             </p>
 
