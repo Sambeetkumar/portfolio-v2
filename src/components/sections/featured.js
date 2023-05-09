@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import { Link, useStaticQuery, graphql } from 'gatsby';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import sr from '@utils/sr';
@@ -13,6 +13,19 @@ const StyledProjectsGrid = styled.ul`
   a {
     position: relative;
     z-index: 1;
+  }
+  .archive-link {
+    font-family: var(--font-mono);
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em;
+    text-transform: capitalize;
+    
+    .archive-btn {
+      ${({ theme }) => theme.mixins.bigButton};
+    }
   }
 `;
 
@@ -332,6 +345,7 @@ const Featured = () => {
 
   const featuredProjects = data.featured.edges.filter(({ node }) => node);
   const revealTitle = useRef(null);
+  const revealArchiveLink = useRef(null);
   const revealProjects = useRef([]);
   const prefersReducedMotion = usePrefersReducedMotion();
 
@@ -341,6 +355,7 @@ const Featured = () => {
     }
 
     sr.reveal(revealTitle.current, srConfig());
+    sr.reveal(revealArchiveLink.current, srConfig());
     revealProjects.current.forEach((ref, i) => sr.reveal(ref, srConfig(i * 100)));
   }, []);
 
@@ -403,6 +418,11 @@ const Featured = () => {
               </StyledProject>
             );
           })}
+        <div className='archive-link'>
+          <Link className="archive-btn" to="/archive" ref={revealArchiveLink}>
+            View the archive
+          </Link>
+        </div>
       </StyledProjectsGrid>
     </section>
   );
