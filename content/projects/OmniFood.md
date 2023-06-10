@@ -1,13 +1,14 @@
 ---
-date: '2018-05-01'
-title: 'blistabloc'
-github: ''
-external: 'https://blistabloc.com/'
+date: '2022-05-01'
+title: 'Omni-food'
+github: 'https://github.com/Sambeetkumar/Omni-Food'
+external: 'https://omnifood-sambeetkumar.netlify.app/'
 tech:
-  - WordPress
-  - Timber
-  - WooCommerce
-company: 'Scout'
+  - Html
+  - Css
+  - Javascript
+  - JQuery
+company: ''
 showInProjects: false
 ---
 
