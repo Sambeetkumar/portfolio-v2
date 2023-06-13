@@ -6,7 +6,6 @@ external: ''
 tech:
   - Html
   - Css
-  - Javascript
 company: ''
 showInProjects: true
 ---
