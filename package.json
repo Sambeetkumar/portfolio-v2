@@ -12,7 +12,7 @@
   ],
   "browserslist": "> 0.25%, not dead",
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b master",
+    "deploy": "gatsby build && gh-pages -d public -b master --repo https://github.com/Sambeetkumar/sambeetkumar.github.io.git",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
