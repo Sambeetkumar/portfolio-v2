@@ -142,9 +142,9 @@ const About = () => {
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working as a freelancer at{' '}
-              <a href="https://www.upwork.com/">Upwork</a>,{' '}
-              <a href="https://www.freelancer.com/">Freelancer</a> and{' '}
-              <a href="https://www.fiverr.com/">Fiverr</a>. My
+              <a href="https://www.upwork.com/freelancers/~01f0cf4a2c391bc128">Upwork</a>,{' '}
+              <a href="https://www.freelancer.com/u/Sambeet03">Freelancer</a> and{' '}
+              <a href="https://www.fiverr.com/sambeet_03">Fiverr</a>. My
               main focus these days is building accessible, inclusive products and digital
               experiences for a variety of
               clients.
